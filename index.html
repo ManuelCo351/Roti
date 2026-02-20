@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotisería El Buen Sabor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fas fa-utensils"></i> El Buen Sabor
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Nuestro Menú</a></li>
+                <li><a href="#contacto">Ubicación y Contacto</a></li>
+            </ul>
+        </nav>
+        <button class="btn-pedir" onclick="location.href='#menu'">Hacer Pedido</button>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Comida casera, lista para disfrutar</h1>
+            <p>Las mejores empanadas, pizzas y minutas de la ciudad. Hacé tu pedido online y pasá a retirarlo o te lo llevamos a tu casa.</p>
+            <a href="#menu" class="cta-button">Ver el Menú</a>
+        </div>
+    </section>
+  <section id="menu" class="menu-section">
+        <h2>Nuestro Menú</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <div class="item-img empanadas"></div>
+                <h3>Empanadas Cortadas a Cuchillo</h3>
+                <p>Carne, pollo, jamón y queso, y verdura. Horneadas o fritas.</p>
+                <span class="precio">$8.000 / docena</span>
+                <button class="btn-agregar">Agregar al pedido</button>
+            </div>
+            <div class="menu-item">
+                <div class="item-img pizza"></div>
+                <h3>Pizza Especial</h3>
+                <p>Muzzarella, jamón, morrones y aceitunas. Masa a la piedra.</p>
+                <span class="precio">$9.500</span>
+                <button class="btn-agregar">Agregar al pedido</button>
+            </div>
+            <div class="menu-item">
+                <div class="item-img milanesa"></div>
+                <h3>Súper Milanesa Napolitana</h3>
+                <p>Con porción de papas fritas. Comen dos personas.</p>
+                <span class="precio">$12.000</span>
+                <button class="btn-agregar">Agregar al pedido</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto-section">
+        <h2>Encontranos acá</h2>
+        <div class="contacto-info">
+            <div class="info-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Ubicación</h3>
+                <p>Caleta Olivia, Santa Cruz</p>
+            </div>
+            <div class="info-card">
+                <i class="fab fa-whatsapp"></i>
+                <h3>WhatsApp</h3>
+                <p>+54 9 297 5373508</p>
+            </div>
+            <div class="info-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p>manuel.co351@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Rotisería El Buen Sabor. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
